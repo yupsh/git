@@ -10,36 +10,42 @@ type Email string
 
 // Boolean flag types with constants
 type ForceFlag bool
+
 const (
 	Force   ForceFlag = true
 	NoForce ForceFlag = false
 )
 
 type VerboseFlag bool
+
 const (
 	Verbose   VerboseFlag = true
 	NoVerbose VerboseFlag = false
 )
 
 type QuietFlag bool
+
 const (
 	Quiet   QuietFlag = true
 	NoQuiet QuietFlag = false
 )
 
 type DryRunFlag bool
+
 const (
 	DryRun   DryRunFlag = true
 	NoDryRun DryRunFlag = false
 )
 
 type AllFlag bool
+
 const (
 	All   AllFlag = true
 	NoAll AllFlag = false
 )
 
 type InteractiveFlag bool
+
 const (
 	Interactive   InteractiveFlag = true
 	NoInteractive InteractiveFlag = false
